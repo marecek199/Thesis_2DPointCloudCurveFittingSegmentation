@@ -1,22 +1,22 @@
-Dokument obsahuje zdrojový kód každého vytvoreného algortimu k Diplomovej práci
+The document contains the source code of each algorithm created for the Diploma Thesis
 
-Jednotlivé algoritmy sú umiestnené v samostatných priečinkoch.
-Nakoľko existujú jemné rozdieli v zobrazovaní a spracovaní dát, 
-sú algoritmy rozdelené na 3 časti (SEF na 2) oddelujúcou príponou :
+The individual algorithms are placed in separate folders.
+Since there are subtle differences in data display and processing, 
+the algorithms are divided into 3 parts (SEF into 2) by separating them with the suffix :
 							
-	_vytvoreneData 	: Algoritmy spracovávajú zvolené vytvorené dáta napr. ("imgs/pointCloud4.png")
+	_createdData : The algorithms process the selected created data e.g. ("imgs/pointCloud4.png")
 	
-	_jednoMeranie 	: Algoritmy spracovávajú jedno z 107 experimentálnych meraní napr.[63]
+	_oneMeasurement : The algorithms process one of 107 experimental measurements e.g. [63]
 
-	_viaceroMerani 	: Algoritmy spracovávajú množinu viacerých spojených experimentálnych meraní napr. [0:20] 
+	_multipleMeasurements : Algorithms process a set of multiple connected experimental measurements e.g. [0:20] 
 
-Priečok data_python obsahuje súbory s meranými dátami.
-Priečok imgs obsahuje súbory s vytvorenými dátami.
+The data_python partition contains the measurement data files.
+The imgs partition contains the files with the generated data.
 
-Algoritmy SplitandMerge, Ransac a Hough spracovávajú ako vstupné dáta obrázok z bitmapy, ktorý si prevedú.
-Je tomu tak, aby bola dokázaná ich schopnosť spracovať aj takéto vstupné dáta a schopnosť spracovávať neusporiadané pole bodov. 
-V časti meraných dát, spracovávajú už vstupné dáta vo forme poľa bodov.
+The SplitandMerge, Ransac and Hough algorithms process the bitmap image they convert as input data.
+This is to demonstrate their ability to process such input data and their ability to process a disordered array of points. 
+In the measured data part, they process already input data in the form of an array of points.
 
 
-Diplomová práca 2021
+Thesis 2021
 Marek Šooš
